@@ -5,7 +5,7 @@ import NxWelcome from './nx-welcome';
 export function App() {
   return (
     <div>
-      <NxWelcome title="cloud-apps" />
+      <NxWelcome title="mfe1" />
     </div>
   );
 }
