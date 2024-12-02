@@ -2,16 +2,20 @@
   "name": "@cloud-apps/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "npx nx serve host"
+  },
   "private": true,
   "dependencies": {
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.11.2"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
     "@eslint/js": "^9.8.0",
+    "@module-federation/enhanced": "0.6.9",
     "@nx/eslint": "20.1.4",
     "@nx/eslint-plugin": "20.1.4",
     "@nx/jest": "20.1.4",
@@ -33,7 +37,6 @@
     "@types/react-dom": "18.3.0",
     "babel-jest": "^29.7.0",
     "eslint": "^9.8.0",
-    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jsx-a11y": "6.10.1",
     "eslint-plugin-react": "7.35.0",
@@ -41,7 +44,6 @@
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "nx": "20.1.4",
-    "prettier": "^2.6.2",
     "react-refresh": "^0.10.0",
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
